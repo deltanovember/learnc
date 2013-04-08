@@ -1,0 +1,4 @@
+{"ts":1365079004639,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1365079019199,"patch":[[{"diffs":[[1,"#include <sdtio.h>\n"]],"start1":0,"start2":0,"length1":0,"length2":19}]],"length":19,"saved":false}
+{"ts":1365079022982,"patch":[[{"diffs":[[0,"e <s"],[-1,"d"],[0,"t"],[1,"d"],[0,"io.h"]],"start1":7,"start2":7,"length1":10,"length2":10}]],"length":19,"saved":false}
+{"ts":1365079233650,"patch":[[{"diffs":[[0,"tdio.h>\n"],[1,"\nint main() {\n    int i;\n    int sumSq = 0;\n    int sqSum = 0;\n    for (i=0; i<=100; i++) {\n        sumSq += i*i;\n        sqSum += i;\n    }\n    int result = sqSum * sqSum - sumSq;\n    printf(\"%d\\n\", result);\n    return 0;\n}\n"]],"start1":11,"start2":11,"length1":8,"length2":232}]],"length":243,"saved":false}

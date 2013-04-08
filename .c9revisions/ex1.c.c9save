@@ -1,0 +1,1 @@
+{"ts":1364847626831,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"#include <stdio.h>\nint main(int argc, char *argv[]) {\n\tputs(\"hello world.\");\n\treturn 0;\n}\n"]],"start1":0,"start2":0,"length1":0,"length2":90}]],"length":90}

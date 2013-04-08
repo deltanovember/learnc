@@ -1,0 +1,4 @@
+{"ts":1364847938503,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1364848834684,"patch":[[{"diffs":[[1,"#include <stdio.h>\nint main(int argc, char *argv[]) {\n    int first = 1;\n    int second = 2;\n    int next = 3;\n    int sum = second;\n    while (next < 4000000) {\n        first = second;\n        second = next;        \n        next = first + second;\n        sum += next;\n    }\n    return 0;\n}"]],"start1":0,"start2":0,"length1":0,"length2":290}]],"length":290,"saved":false}
+{"ts":1364848855166,"patch":[[{"diffs":[[0,";\n    }\n"],[1,"    printf(\"%d\\n\", sum);\n"],[0,"    retu"]],"start1":267,"start2":267,"length1":16,"length2":41}]],"length":315,"saved":false}
+{"ts":1364848902333,"patch":[[{"diffs":[[0,"first + second;\n"],[1,"        if (next %2 == 0)\n    "],[0,"        sum += n"]],"start1":232,"start2":232,"length1":32,"length2":62}]],"length":345,"saved":false}

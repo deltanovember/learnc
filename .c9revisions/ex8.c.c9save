@@ -1,0 +1,2 @@
+{"ts":1364819369100,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1364819448442,"patch":[[{"diffs":[[1,"#include <stdio.h>\nint main(int argc, char *argv[]) {\n    int areas[]\n    return 0;\n}\n    "]],"start1":0,"start2":0,"length1":0,"length2":90}]],"length":90,"saved":false}
